@@ -49,13 +49,6 @@ class CustomLinkedList {
         repeat(index-1){
             before = before?.next
         }
-
-//			var after:Node?= first
-//			repeat(index+1){
-//				after = after?.next
-//			}
-
-//			before?.next = after?.next
         before?.next = before?.next?.next
     }
 }
