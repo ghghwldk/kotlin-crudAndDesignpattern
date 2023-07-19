@@ -1,4 +1,4 @@
-package com.example.demo.링크드리스트
+package com.example.demo.ds
 
 
 class Node(val data: String, var next: Node?)

@@ -1,4 +1,4 @@
-package com.example.demo.링크드리스트
+package com.example.demo.ds
 
 class CustomLinkedList {
     var first:Node? = null

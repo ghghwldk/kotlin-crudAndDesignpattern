@@ -1,13 +1,13 @@
-package com.example.demo
+package com.example.demo.etc
 
-import com.example.demo.링크드리스트.CustomLinkedList
+import com.example.demo.ds.CustomLinkedList
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class DemoApplicationTests {
+class Linkedlist {
 	@Test
-	fun contextLoads() {
+	fun 링크드리스트테스트() {
 		val list = CustomLinkedList()
 
 		list.add("Element 1")
